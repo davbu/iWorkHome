@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var userListViewModel = UserListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(userListViewModel.userViewModels) { userViewModel in
+                    Text(userViewModel.user.name)
+                }
+            }
+        }
     }
 }
 

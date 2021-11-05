@@ -1,0 +1,22 @@
+{
+    "dates": [
+        {
+            "id": 1,
+            "date": "2021-11-05",
+            "people": [
+                {
+                    "id": 1,
+                    "name": "David Buhauer",
+                    "initials": "DAVBU"
+                    "status": "Hjemme"
+                },
+                {
+                    "id": 2,
+                    "name": "Daora Orasinski",
+                    "initials": "DAORA"
+                    "status": "EG"
+                }
+            ]
+        }
+    ]
+}
