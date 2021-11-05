@@ -23,6 +23,7 @@
 		96A62EB327355CB30099AE92 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A62EB227355CB30099AE92 /* Calendar.swift */; };
 		96A62EB62735600C0099AE92 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A62EB52735600C0099AE92 /* UserRepository.swift */; };
 		96A62EB82735610A0099AE92 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A62EB72735610A0099AE92 /* UserViewModel.swift */; };
+		96A62EBA27356F0D0099AE92 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A62EB927356F0C0099AE92 /* UserItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		96A62EB227355CB30099AE92 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		96A62EB52735600C0099AE92 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		96A62EB72735610A0099AE92 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		96A62EB927356F0C0099AE92 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				96A62E9027353CA10099AE92 /* ContentView.swift */,
 				96A62E9227353CA40099AE92 /* Assets.xcassets */,
 				96A62E9427353CA40099AE92 /* Preview Content */,
+				96A62EB927356F0C0099AE92 /* UserItem.swift */,
 			);
 			path = iWorkHome;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				96A62E9E27354D3E0099AE92 /* Bundle+Decoder.swift in Sources */,
 				96A62EB327355CB30099AE92 /* Calendar.swift in Sources */,
 				96A62EAF27355C9E0099AE92 /* User.swift in Sources */,
+				96A62EBA27356F0D0099AE92 /* UserItem.swift in Sources */,
 				96A62E8F27353CA10099AE92 /* iWorkHomeApp.swift in Sources */,
 				96A62EA32735501D0099AE92 /* Dates.swift in Sources */,
 				96A62EAB27355B090099AE92 /* UserListViewModel.swift in Sources */,

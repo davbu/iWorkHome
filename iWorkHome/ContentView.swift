@@ -14,9 +14,10 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(userListViewModel.userViewModels) { userViewModel in
-                    Text(userViewModel.user.name)
+                    UserItem(user: userViewModel.user)
                 }
             }
+            .navigationTitle("iWorkHome")
         }
     }
 }
